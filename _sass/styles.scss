@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+	background-color: #550BE4;
+}
+
+a, a:visited {
+	text-decoration: underline;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+p {
+	margin-bottom: 24px;
+	line-height: 160%;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a.imprint-link {
+	text-decoration: none;
+	position: absolute;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.75rem;
+	top: 1rem;
+	right: 1rem;
+}
+
+.content {
+	background-color: #fff;
+	max-width: 720px;
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 1rem;
+}
+
+.content ol, .content ul {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.content ol li, 
+.content ul li {
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+.emoji {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -36px;
+	margin-left: -36px;
+	width: 72px;
+	height: 72px;
+}
+
+.mail-form {
+	position: fixed;
+	bottom: 2rem;
+	left: 2rem;
+	right: 2rem;
+	background-color: #fff;
+	padding: 0.75rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.email-input {
+	padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+	border: none;
+	font-size: 1.2rem;
+	display: flex;
+	flex-grow: 2;
+	background: transparent;
+	width: 100%;
+}
+
+.email-input::placeholder {
+	color: #ccc;
+}
+
+.email-input:focus {
+	outline: none;
+	border-color: #550BE4;
+}
+
+.email-button {
+	font-size: 1rem;
+	border: 0;
+	background: #550BE4;
+	color: #fff;
+	border-radius: 0.5rem;
+	padding: 0.75rem 0.5rem;
+	flex-grow: 1;
+}
+
+.email-button:focus, 
+.email-button:hover {
+	outline: none;
+}
+
+.email-button:hover {
+	background: #5c2bbe;
+}
+
+.mail-form h3 {
+	text-align: center;
+}
+
+@media (min-width: 481px) {
+	.email-input {
+		padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+		font-size: 1.5rem;
+		width: auto;
+	}
+
+	.email-button {
+		font-size: 1.5rem;
+		padding: 0.75rem 1rem;
+	}
+
+	.mail-form {
+		padding: 0.75rem;
+		bottom: 3rem;
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);	
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 640px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 800px) {
+	.content {
+		margin: 3rem auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	html {
+		font-size: 18px;
+	}
+}
