@@ -2,7 +2,6 @@
 layout: default
 title: Terms of use
 permalink: /terms
-image: /assets/social.png
 ---
 
 # Terms of use

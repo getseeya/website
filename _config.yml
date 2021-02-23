@@ -25,8 +25,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   more info soon 🚀
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://getseeya.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: getseeya
 github_username:  getseeya
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/social.png
+        height: 1920
+        width: 1080
 
 # Build settings
 sass:

@@ -1,0 +1,7 @@
+---
+permalink: /404
+layout: default
+---
+
+# Page not found 🤷‍♂️
+The requested page could not be found.

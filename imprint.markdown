@@ -2,7 +2,6 @@
 layout: default
 title: Imprint
 permalink: /imprint
-image: /assets/social.png
 ---
 
 # Impressum
