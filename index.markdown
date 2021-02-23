@@ -1,6 +1,6 @@
 ---
 layout: start
-title: "Sign up"
+title: "seeya"
 ---
 
 <form class="mail-form validate" action="https://getseeya.us1.list-manage.com/subscribe/post?u=a277e8acdb61937dfcf5dfa22&amp;id=82b9bb898c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_self" novalidate>
