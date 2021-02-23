@@ -3,7 +3,7 @@ layout: start
 title: "Sign up"
 ---
 
-<form class="mail-form validate" action="https://getseeya.us1.list-manage.com/subscribe/post?u=a277e8acdb61937dfcf5dfa22&amp;id=82b9bb898c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+<form class="mail-form validate" action="https://getseeya.us1.list-manage.com/subscribe/post?u=a277e8acdb61937dfcf5dfa22&amp;id=82b9bb898c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_self" novalidate>
     <input type="email" value="" name="EMAIL" placeholder="Email Address" class="required email email-input" id="mce-EMAIL">
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true">
