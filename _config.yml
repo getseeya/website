@@ -21,7 +21,7 @@
 title: seeya
 email: hey@getseeya.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://getseeya.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://seeya.fyi" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: getseeya
 github_username:  getseeya
 
